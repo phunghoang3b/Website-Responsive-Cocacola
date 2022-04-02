@@ -57,3 +57,45 @@ header .Navigation li a:hover{
     text-decoration: underline;
 }
 
+/* content */
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color: white;
+    font-size: 60px;
+}
+.content .textBox p{
+    color: white;
+}
+.content .textBox a{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: tomato;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.content .textBox a:hover{
+    background: yellow;
+    transition: linear 1s;
+    color: black;
+}
+
+
