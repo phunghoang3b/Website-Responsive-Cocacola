@@ -35,3 +35,24 @@ header{
     width: 100%;
     display: flex;
 }
+header .logo{
+    position: relative;
+    max-width: 120px;
+}
+header .Navigation{
+    display: flex;
+    position: relative;  
+}
+header .Navigation li{
+    list-style: none;
+}
+header .Navigation li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+}
+header .Navigation li a:hover{
+    text-decoration: underline;
+}
